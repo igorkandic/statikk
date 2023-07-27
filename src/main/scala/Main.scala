@@ -16,7 +16,7 @@ object Main {
         println(deaths)
         if(deaths.as[Int] == lastDeaths + 1){
           lastDeaths = deaths.as[Int]
-          println("UMRO!")
+          println("You Died!!")
           zapper.zap()
         }else{
           lastDeaths = deaths.as[Int]
