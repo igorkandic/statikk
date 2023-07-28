@@ -15,12 +15,10 @@ object Main {
         val deaths = (parsedData \ "allPlayers" \ 0 \ "scores" \ "deaths").get
         println(deaths)
         if(deaths.as[Int] == lastDeaths + 1){
-          lastDeaths = deaths.as[Int]
           println("You Died!!")
           zapper.zap()
-        }else{
-          lastDeaths = deaths.as[Int]
         }
+        lastDeaths = deaths.as[Int]
       })
     println("LeagueOfPain")
 
