@@ -12,13 +12,20 @@ object Main {
       var lastDeaths = 0
       LeagueClient.Subscribe("/liveclientdata/allgamedata", 2000, (data) => {
         val parsedData = Json.parse(data)
-        val deaths = (parsedData \ "allPlayers" \ 0 \ "scores" \ "deaths").get
+        var deaths = 0
+        val summoner = (parsedData \ "activePlayer" \ "summonerName").get
+        val summoners = (parsedData \ "allPlayers").get
+        for(player <-summoners.as[List[json.JsObject]]){
+          if((player \ "summonerName").get.as[String].equals(summoner.as[String])){
+            deaths = (player \ "scores" \ "deaths").as[Int]
+          }
+        }
         println(deaths)
-        if(deaths.as[Int] == lastDeaths + 1){
+        if(deaths == lastDeaths + 1){
           println("You Died!!")
           zapper.zap()
         }
-        lastDeaths = deaths.as[Int]
+        lastDeaths = deaths
       })
     println("LeagueOfPain")
 
