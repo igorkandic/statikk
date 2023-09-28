@@ -1,0 +1,18 @@
+[debug] > Exec(assembly, None, None)
+[debug] Evaluating tasks: assembly
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 4 Scala sources to D:\statikk\target\scala-2.13\classes ...
+[warn] D:\statikk\src\main\scala\LeagueConnect\InGameClient.scala:50:12: This catches all Throwables. If this is really intended, use `case e : Throwable` to clear this warning.
+[warn]       case e =>
+[warn]            ^
+[warn] D:\statikk\src\main\scala\LeagueConnect\InGameClient.scala:43:35: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+[warn]   private def isPortUp: Boolean = try {
+[warn]                                   ^
+[warn] two warnings found
+[info] done compiling
+[info] 17 file(s) merged using strategy 'First' (Run the task at debug level to see the details)
+[info] 104 file(s) merged using strategy 'Discard' (Run the task at debug level to see the details)
+[info] Built: D:\statikk\target\scala-2.13\LeaguePain-assembly-0.1.0-SNAPSHOT.jar
+[info] Jar hash: 5a1643dfd58b6d2ada8a6d5ac11fe6b79063df1b
+[success] Total time: 15 s, completed 28. 9. 2023. 16:13:56
+[debug] > Exec(idea-shell, None, None)

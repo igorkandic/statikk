@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="root [file:/D:/statikk/]" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_X">
+    <output url="file://$MODULE_DIR$/../../target/scala-2.13/classes" />
+    <output-test url="file://$MODULE_DIR$/../../target/scala-2.13/test-classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../..">
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/scala" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/../../target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="sbt: com.fasterxml.jackson.core:jackson-annotations:2.11.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.fasterxml.jackson.core:jackson-core:2.11.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.fasterxml.jackson.core:jackson-databind:2.11.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.11.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.11.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.fazecast:jSerialComm:2.9.3:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.lihaoyi:geny_2.13:1.0.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.lihaoyi:os-lib_2.13:0.9.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.lihaoyi:ujson_2.13:3.1.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.lihaoyi:upack_2.13:3.1.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.lihaoyi:upickle-core_2.13:3.1.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.lihaoyi:upickle-implicits_2.13:3.1.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.lihaoyi:upickle_2.13:3.1.0:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.softwaremill.sttp.client4:core_2.13:4.0.0-M1:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.softwaremill.sttp.client4:json-common_2.13:4.0.0-M1:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.softwaremill.sttp.client4:upickle_2.13:4.0.0-M1:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.softwaremill.sttp.model:core_2.13:1.5.5:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.softwaremill.sttp.shared:core_2.13:1.3.13:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.softwaremill.sttp.shared:ws_2.13:1.3.13:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.typesafe.play:play-functional_2.13:2.9.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.typesafe.play:play-json_2.13:2.9.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openjfx:javafx-base:20:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openjfx:javafx-base:20:win:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openjfx:javafx-controls:20:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openjfx:javafx-controls:20:win:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openjfx:javafx-fxml:20:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openjfx:javafx-fxml:20:win:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openjfx:javafx-graphics:20:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openjfx:javafx-graphics:20:win:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openjfx:javafx-media:20:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openjfx:javafx-media:20:win:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openjfx:javafx-swing:20:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openjfx:javafx-swing:20:win:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openjfx:javafx-web:20:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.openjfx:javafx-web:20:win:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.13.12:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang:scala-reflect:2.13.12:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang:toolkit_2.13:0.1.7:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalafx:scalafx_2.13:20.0.0-R31:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalafx:scalafxml-core-macros-sfx8_2.13:0.5:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalafx:scalafxml-core-sfx8_2.13:0.5:jar" level="project" />
+  </component>
+</module>

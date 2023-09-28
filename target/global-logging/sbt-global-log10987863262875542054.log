@@ -1,0 +1,11 @@
+[debug] > Exec(addSbtPlugin("com.eed3si9n" % "sbt-assembly" % "1.1.0"), None, None)
+[error] Expected ID character
+[error] Not a valid command: addSbtPlugin (similar: plugin, plugins)
+[error] Expected project ID
+[error] Expected configuration
+[error] Expected ':'
+[error] Expected key
+[error] Not a valid key: addSbtPlugin (similar: sbtPlugin, discoveredSbtPlugins)
+[error] addSbtPlugin("com.eed3si9n" % "sbt-assembly" % "1.1.0")
+[error]             ^
+[debug] > Exec(idea-shell, None, None)

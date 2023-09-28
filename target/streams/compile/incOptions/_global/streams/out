@@ -1,0 +1,53 @@
+[debug] Created transactional ClassFileManager with tempDir = D:\statikk\target\scala-2.13\classes.bak
+[debug] About to delete class files:
+[debug] 	Main$$anon$1$$anon$2$$anon$3$$anon$4$$anon$7.class
+[debug] 	Main$$anon$1$$anon$2$$anon$3$$anon$11$$anon$13.class
+[debug] 	Main$$anon$1$$anon$2$$anon$3$$anon$4.class
+[debug] 	Main$$anon$1$$anon$2$$anon$3$$anon$8$$anon$10.class
+[debug] 	Main$$anon$1$$anon$2$$anon$3$$anon$8$$anon$9.class
+[debug] 	Main$$anon$1$$anon$2$$anon$3$$anon$11$$anon$12.class
+[debug] 	Main$$anon$1$$anon$2$$anon$3$$anon$11.class
+[debug] 	Main$$anon$1$$anon$2$$anon$3$$anon$4$$anon$5.class
+[debug] 	Main$$anon$1$$anon$2$$anon$3$$anon$8.class
+[debug] 	Main$$anon$1$$anon$2.class
+[debug] 	Main.class
+[debug] 	Zapper.class
+[debug] 	Main$.class
+[debug] 	Main$$anon$1.class
+[debug] 	Main$$anon$1$$anon$2$$anon$3$$anon$4$$anon$6.class
+[debug] 	Main$$anon$1$$anon$2$$anon$3.class
+[debug] 	InGameClient$$anon$1.class
+[debug] 	InGameClient.class
+[debug] We backup class files:
+[debug] 	Main$$anon$1$$anon$2$$anon$3$$anon$4$$anon$7.class
+[debug] 	Main$$anon$1$$anon$2$$anon$3$$anon$11$$anon$13.class
+[debug] 	Main$$anon$1$$anon$2$$anon$3$$anon$4.class
+[debug] 	Main$$anon$1$$anon$2$$anon$3$$anon$8$$anon$10.class
+[debug] 	Main$$anon$1$$anon$2$$anon$3$$anon$8$$anon$9.class
+[debug] 	Main$$anon$1$$anon$2$$anon$3$$anon$11$$anon$12.class
+[debug] 	Main$$anon$1$$anon$2$$anon$3$$anon$11.class
+[debug] 	Main$$anon$1$$anon$2$$anon$3$$anon$4$$anon$5.class
+[debug] 	Main$$anon$1$$anon$2$$anon$3$$anon$8.class
+[debug] 	Main$$anon$1$$anon$2.class
+[debug] 	Main.class
+[debug] 	Zapper.class
+[debug] 	Main$.class
+[debug] 	Main$$anon$1.class
+[debug] 	Main$$anon$1$$anon$2$$anon$3$$anon$4$$anon$6.class
+[debug] 	Main$$anon$1$$anon$2$$anon$3.class
+[debug] 	InGameClient$$anon$1.class
+[debug] 	InGameClient.class
+[debug] Created transactional ClassFileManager with tempDir = D:\statikk\target\scala-2.13\classes.bak
+[debug] About to delete class files:
+[debug] We backup class files:
+[debug] Registering generated classes:
+[debug] 	guiPresenter$Controller.class
+[debug] 	guiPresenter.class
+[debug] 	Main$$typecreator1$1.class
+[debug] 	Main.class
+[debug] 	Zapper.class
+[debug] 	Main$.class
+[debug] 	Main$$anon$1.class
+[debug] 	InGameClient$$anon$1.class
+[debug] 	InGameClient.class
+[debug] Removing the temporary directory used for backing up class files: D:\statikk\target\scala-2.13\classes.bak

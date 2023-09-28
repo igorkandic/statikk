@@ -1,0 +1,9 @@
+[debug] Acquiring lock on file D:\statikk\project\target\.sbt-compilation-infos\root-compile\.sbt-idea-lock ...
+[warn] D:\statikk\src\main\scala\LeagueConnect\InGameClient.scala:50:12: This catches all Throwables. If this is really intended, use `case e : Throwable` to clear this warning.
+[warn]       case e =>
+[warn]            ^
+[warn] D:\statikk\src\main\scala\LeagueConnect\InGameClient.scala:43:35: A try without a catch or finally is equivalent to putting its body in a block; no exceptions are handled.
+[warn]   private def isPortUp: Boolean = try {
+[warn]                                   ^
+[warn] two warnings found
+[debug] Releasing lock on file D:\statikk\project\target\.sbt-compilation-infos\root-compile\.sbt-idea-lock.

@@ -1,0 +1,353 @@
+[debug] Separate classpath projects and all dependencies start:
+[debug] Separate classpath projects and all dependencies end. Took 217 ms
+[debug] Collect only external dependencies start:
+[debug] Collect only external dependencies end. Took 2 ms
+[debug] Collect excluded jar names start:
+[debug] Collect excluded jar names end. Took 1 ms
+[debug] Filter jars start:
+[debug] Filter jars end. Took 1 ms
+[debug] Collect and shade project classes start:
+[debug] Collect and shade project classes end. Took 2 ms
+[debug] Collect and shade dependency entries start:
+[debug] Collect and shade dependency entries end. Took 35 ms
+[debug] Collect renames start:
+[debug] Collect renames end. Took 55 ms
+[debug] Process renames start:
+[debug] Process renames end. Took 90 ms
+[debug] Collect all merge strategies for cache check start:
+[debug] Collect all merge strategies for cache check end. Took 83 ms
+[debug] Building assembly jar due to changed inputs...
+[debug] Merge all conflicting jar entries (including those renamed) start:
+[debug] Merge all conflicting jar entries (including those renamed) end. Took 71 ms
+[debug] Report merge results start:
+[info] 17 file(s) merged using strategy 'First' (Run the task at debug level to see the details)
+[debug] 
+[debug] Merge Strategy Used: First
+[debug] Resulting entries:
+[debug]   Jar entry = LICENSE
+[debug] Merge origins:
+[debug]   Jar name = scala-library-2.13.12.jar, jar org = org.scala-lang, entry target = LICENSE
+[debug]   Jar name = scala-reflect-2.13.12.jar, jar org = org.scala-lang, entry target = LICENSE
+[debug] 
+[debug] Merge Strategy Used: First
+[debug] Resulting entries:
+[debug]   Jar entry = module-info.class
+[debug] Merge origins:
+[debug]   Jar name = jackson-annotations-2.11.4.jar, jar org = com.fasterxml.jackson.core, entry target = module-info.class
+[debug]   Jar name = jackson-core-2.11.4.jar, jar org = com.fasterxml.jackson.core, entry target = module-info.class
+[debug]   Jar name = jackson-databind-2.11.4.jar, jar org = com.fasterxml.jackson.core, entry target = module-info.class
+[debug]   Jar name = jackson-datatype-jdk8-2.11.4.jar, jar org = com.fasterxml.jackson.datatype, entry target = module-info.class
+[debug]   Jar name = jackson-datatype-jsr310-2.11.4.jar, jar org = com.fasterxml.jackson.datatype, entry target = module-info.class
+[debug]   Jar name = jSerialComm-2.9.3.jar, jar org = com.fazecast, entry target = module-info.class
+[debug]   Jar name = javafx-base-20.jar, jar org = org.openjfx, entry target = module-info.class
+[debug]   Jar name = javafx-controls-20.jar, jar org = org.openjfx, entry target = module-info.class
+[debug]   Jar name = javafx-fxml-20.jar, jar org = org.openjfx, entry target = module-info.class
+[debug]   Jar name = javafx-graphics-20.jar, jar org = org.openjfx, entry target = module-info.class
+[debug]   Jar name = javafx-media-20.jar, jar org = org.openjfx, entry target = module-info.class
+[debug]   Jar name = javafx-swing-20.jar, jar org = org.openjfx, entry target = module-info.class
+[debug]   Jar name = javafx-web-20.jar, jar org = org.openjfx, entry target = module-info.class
+[debug] 
+[debug] Merge Strategy Used: First
+[debug] Resulting entries:
+[debug]   Jar entry = NOTICE
+[debug] Merge origins:
+[debug]   Jar name = scala-library-2.13.12.jar, jar org = org.scala-lang, entry target = NOTICE
+[debug]   Jar name = scala-reflect-2.13.12.jar, jar org = org.scala-lang, entry target = NOTICE
+[info] 104 file(s) merged using strategy 'Discard' (Run the task at debug level to see the details)
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = javafx-base-20.jar, jar org = org.openjfx, entry target = META-INF/substrate/config/reflectionconfig.json
+[debug]   Jar name = javafx-controls-20.jar, jar org = org.openjfx, entry target = META-INF/substrate/config/reflectionconfig.json
+[debug]   Jar name = javafx-fxml-20.jar, jar org = org.openjfx, entry target = META-INF/substrate/config/reflectionconfig.json
+[debug]   Jar name = javafx-graphics-20.jar, jar org = org.openjfx, entry target = META-INF/substrate/config/reflectionconfig.json
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = jackson-annotations-2.11.4.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/LICENSE
+[debug]   Jar name = jackson-core-2.11.4.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/LICENSE
+[debug]   Jar name = jackson-databind-2.11.4.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/LICENSE
+[debug]   Jar name = jackson-datatype-jsr310-2.11.4.jar, jar org = com.fasterxml.jackson.datatype, entry target = META-INF/LICENSE
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = javafx-graphics-20.jar, jar org = org.openjfx, entry target = META-INF/substrate/config/jniconfig.json
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = javafx-graphics-20.jar, jar org = org.openjfx, entry target = META-INF/substrate/config/jniconfig-aarch64-android.json
+[debug]   Jar name = javafx-web-20.jar, jar org = org.openjfx, entry target = META-INF/substrate/config/jniconfig-aarch64-android.json
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = jackson-datatype-jdk8-2.11.4.jar, jar org = com.fasterxml.jackson.datatype, entry target = META-INF/services/com.fasterxml.jackson.databind.Module
+[debug]   Jar name = jackson-datatype-jsr310-2.11.4.jar, jar org = com.fasterxml.jackson.datatype, entry target = META-INF/services/com.fasterxml.jackson.databind.Module
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = javafx-graphics-20.jar, jar org = org.openjfx, entry target = META-INF/substrate/config/jniconfig-x86_64-windows.json
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = javafx-graphics-20.jar, jar org = org.openjfx, entry target = META-INF/substrate/config/jniconfig-aarch64-darwin.json
+[debug]   Jar name = javafx-web-20.jar, jar org = org.openjfx, entry target = META-INF/substrate/config/jniconfig-aarch64-darwin.json
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = jackson-annotations-2.11.4.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/maven/com.fasterxml.jackson.core/jackson-annotations/pom.properties
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = jackson-databind-2.11.4.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/maven/com.fasterxml.jackson.core/jackson-databind/pom.properties
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = jackson-core-2.11.4.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.properties
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = javafx-graphics-20.jar, jar org = org.openjfx, entry target = META-INF/substrate/config/jniconfig-arm64-ios.json
+[debug]   Jar name = javafx-web-20.jar, jar org = org.openjfx, entry target = META-INF/substrate/config/jniconfig-arm64-ios.json
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = javafx-controls-20.jar, jar org = org.openjfx, entry target = META-INF/substrate/config/reflectionconfig-aarch64-android.json
+[debug]   Jar name = javafx-graphics-20.jar, jar org = org.openjfx, entry target = META-INF/substrate/config/reflectionconfig-aarch64-android.json
+[debug]   Jar name = javafx-web-20.jar, jar org = org.openjfx, entry target = META-INF/substrate/config/reflectionconfig-aarch64-android.json
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = javafx-graphics-20.jar, jar org = org.openjfx, entry target = META-INF/substrate/config/jniconfig-aarch64-linux.json
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = javafx-graphics-20.jar, jar org = org.openjfx, entry target = META-INF/substrate/config/resourcebundles-x86_64-windows
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = javafx-controls-20.jar, jar org = org.openjfx, entry target = META-INF/substrate/config/reflectionconfig-arm64-ios.json
+[debug]   Jar name = javafx-graphics-20.jar, jar org = org.openjfx, entry target = META-INF/substrate/config/reflectionconfig-arm64-ios.json
+[debug]   Jar name = javafx-web-20.jar, jar org = org.openjfx, entry target = META-INF/substrate/config/reflectionconfig-arm64-ios.json
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = javafx-controls-20.jar, jar org = org.openjfx, entry target = META-INF/substrate/config/resourcebundles
+[debug]   Jar name = javafx-graphics-20.jar, jar org = org.openjfx, entry target = META-INF/substrate/config/resourcebundles
+[debug]   Jar name = javafx-media-20.jar, jar org = org.openjfx, entry target = META-INF/substrate/config/resourcebundles
+[debug]   Jar name = javafx-web-20.jar, jar org = org.openjfx, entry target = META-INF/substrate/config/resourcebundles
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = javafx-graphics-20.jar, jar org = org.openjfx, entry target = META-INF/substrate/config/reflectionconfig-aarch64-darwin.json
+[debug]   Jar name = javafx-web-20.jar, jar org = org.openjfx, entry target = META-INF/substrate/config/reflectionconfig-aarch64-darwin.json
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = jackson-annotations-2.11.4.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = jackson-core-2.11.4.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = jackson-databind-2.11.4.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = jackson-datatype-jdk8-2.11.4.jar, jar org = com.fasterxml.jackson.datatype, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = jackson-datatype-jsr310-2.11.4.jar, jar org = com.fasterxml.jackson.datatype, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = jSerialComm-2.9.3.jar, jar org = com.fazecast, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = geny_2.13-1.0.0.jar, jar org = com.lihaoyi, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = os-lib_2.13-0.9.1.jar, jar org = com.lihaoyi, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = ujson_2.13-3.1.0.jar, jar org = com.lihaoyi, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = upack_2.13-3.1.0.jar, jar org = com.lihaoyi, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = upickle-core_2.13-3.1.0.jar, jar org = com.lihaoyi, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = upickle-implicits_2.13-3.1.0.jar, jar org = com.lihaoyi, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = upickle_2.13-3.1.0.jar, jar org = com.lihaoyi, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = core_2.13-4.0.0-M1.jar, jar org = com.softwaremill.sttp.client4, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = json-common_2.13-4.0.0-M1.jar, jar org = com.softwaremill.sttp.client4, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = upickle_2.13-4.0.0-M1.jar, jar org = com.softwaremill.sttp.client4, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = core_2.13-1.5.5.jar, jar org = com.softwaremill.sttp.model, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = core_2.13-1.3.13.jar, jar org = com.softwaremill.sttp.shared, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = ws_2.13-1.3.13.jar, jar org = com.softwaremill.sttp.shared, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = play-functional_2.13-2.9.4.jar, jar org = com.typesafe.play, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = play-json_2.13-2.9.4.jar, jar org = com.typesafe.play, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = javafx-base-20.jar, jar org = org.openjfx, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = javafx-base-20.jar, jar org = org.openjfx, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = javafx-controls-20.jar, jar org = org.openjfx, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = javafx-controls-20.jar, jar org = org.openjfx, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = javafx-fxml-20.jar, jar org = org.openjfx, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = javafx-fxml-20.jar, jar org = org.openjfx, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = javafx-graphics-20.jar, jar org = org.openjfx, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = javafx-graphics-20.jar, jar org = org.openjfx, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = javafx-media-20.jar, jar org = org.openjfx, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = javafx-media-20.jar, jar org = org.openjfx, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = javafx-swing-20.jar, jar org = org.openjfx, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = javafx-swing-20.jar, jar org = org.openjfx, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = javafx-web-20.jar, jar org = org.openjfx, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = javafx-web-20.jar, jar org = org.openjfx, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = scala-library-2.13.12.jar, jar org = org.scala-lang, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = scala-reflect-2.13.12.jar, jar org = org.scala-lang, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = toolkit_2.13-0.1.7.jar, jar org = org.scala-lang, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = scalafx_2.13-20.0.0-R31.jar, jar org = org.scalafx, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = scalafxml-core-macros-sfx8_2.13-0.5.jar, jar org = org.scalafx, entry target = META-INF/MANIFEST.MF
+[debug]   Jar name = scalafxml-core-sfx8_2.13-0.5.jar, jar org = org.scalafx, entry target = META-INF/MANIFEST.MF
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = jackson-core-2.11.4.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/NOTICE
+[debug]   Jar name = jackson-databind-2.11.4.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/NOTICE
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = javafx-graphics-20.jar, jar org = org.openjfx, entry target = META-INF/substrate/config/reflectionconfig-aarch64-linux.json
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = javafx-graphics-20.jar, jar org = org.openjfx, entry target = META-INF/substrate/config/reflectionconfig-x86_64-windows.json
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = jackson-core-2.11.4.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/services/com.fasterxml.jackson.core.JsonFactory
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = jackson-core-2.11.4.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/maven/com.fasterxml.jackson.core/jackson-core/pom.xml
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = javafx-controls-20.jar, jar org = org.openjfx, entry target = META-INF/substrate/config/reflectionconfig-x86_64-ios.json
+[debug]   Jar name = javafx-graphics-20.jar, jar org = org.openjfx, entry target = META-INF/substrate/config/reflectionconfig-x86_64-ios.json
+[debug]   Jar name = javafx-web-20.jar, jar org = org.openjfx, entry target = META-INF/substrate/config/reflectionconfig-x86_64-ios.json
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = jackson-databind-2.11.4.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/services/com.fasterxml.jackson.core.ObjectCodec
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = jackson-datatype-jdk8-2.11.4.jar, jar org = com.fasterxml.jackson.datatype, entry target = META-INF/maven/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/pom.xml
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = jackson-datatype-jsr310-2.11.4.jar, jar org = com.fasterxml.jackson.datatype, entry target = META-INF/maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/pom.properties
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = javafx-graphics-20.jar, jar org = org.openjfx, entry target = META-INF/substrate/config/jniconfig-x86_64-linux.json
+[debug]   Jar name = javafx-media-20.jar, jar org = org.openjfx, entry target = META-INF/substrate/config/jniconfig-x86_64-linux.json
+[debug]   Jar name = javafx-web-20.jar, jar org = org.openjfx, entry target = META-INF/substrate/config/jniconfig-x86_64-linux.json
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = jackson-annotations-2.11.4.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/maven/com.fasterxml.jackson.core/jackson-annotations/pom.xml
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = jackson-datatype-jsr310-2.11.4.jar, jar org = com.fasterxml.jackson.datatype, entry target = META-INF/maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/pom.xml
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = javafx-graphics-20.jar, jar org = org.openjfx, entry target = META-INF/substrate/config/jniconfig-x86_64-ios.json
+[debug]   Jar name = javafx-web-20.jar, jar org = org.openjfx, entry target = META-INF/substrate/config/jniconfig-x86_64-ios.json
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = javafx-graphics-20.jar, jar org = org.openjfx, entry target = META-INF/substrate/config/reflectionconfig-x86_64-linux.json
+[debug]   Jar name = javafx-media-20.jar, jar org = org.openjfx, entry target = META-INF/substrate/config/reflectionconfig-x86_64-linux.json
+[debug]   Jar name = javafx-web-20.jar, jar org = org.openjfx, entry target = META-INF/substrate/config/reflectionconfig-x86_64-linux.json
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = javafx-graphics-20.jar, jar org = org.openjfx, entry target = META-INF/substrate/config/jniconfig-x86_64-darwin.json
+[debug]   Jar name = javafx-web-20.jar, jar org = org.openjfx, entry target = META-INF/substrate/config/jniconfig-x86_64-darwin.json
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = javafx-graphics-20.jar, jar org = org.openjfx, entry target = META-INF/substrate/config/reflectionconfig-x86_64-darwin.json
+[debug]   Jar name = javafx-web-20.jar, jar org = org.openjfx, entry target = META-INF/substrate/config/reflectionconfig-x86_64-darwin.json
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = jackson-datatype-jdk8-2.11.4.jar, jar org = com.fasterxml.jackson.datatype, entry target = META-INF/maven/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/pom.properties
+[debug] 
+[debug] Merge Strategy Used: Discard
+[debug] Resulting entries:
+[debug]   None
+[debug] Merge origins:
+[debug]   Jar name = jackson-databind-2.11.4.jar, jar org = com.fasterxml.jackson.core, entry target = META-INF/maven/com.fasterxml.jackson.core/jackson-databind/pom.xml
+[debug] Report merge results end. Took 22 ms
+[debug] Finding remaining conflicts that were not merged start:
+[debug] Finding remaining conflicts that were not merged end. Took 169 ms
+[debug] Sort/Parallelize merged entries start:
+[debug] Sort/Parallelize merged entries end. Took 57 ms
+[debug] Create jar start:
+[debug] Create jar end. Took 7124 ms
+[debug] Hash newly-built Jar start:
+[debug] Hash newly-built Jar end. Took 86 ms
+[info] Built: D:\statikk\target\scala-2.13\LeaguePain-assembly-0.1.0-SNAPSHOT.jar
+[info] Jar hash: 5a1643dfd58b6d2ada8a6d5ac11fe6b79063df1b
+[debug] Close library jar references start:
+[debug] Close library jar references end. Took 6 ms

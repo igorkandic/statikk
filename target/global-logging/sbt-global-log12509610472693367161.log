@@ -1,0 +1,9 @@
+[debug] > Exec(assembly, None, None)
+[debug] Evaluating tasks: assembly
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] 17 file(s) merged using strategy 'First' (Run the task at debug level to see the details)
+[info] 102 file(s) merged using strategy 'Discard' (Run the task at debug level to see the details)
+[info] Built: D:\statikk\target\scala-2.13\LeaguePain-assembly-0.1.0-SNAPSHOT.jar
+[info] Jar hash: ea968747f97617d7cb022aaade6269d1856c7026
+[success] Total time: 7 s, completed 27. 9. 2023. 20:45:29
+[debug] > Exec(idea-shell, None, None)
